@@ -56,7 +56,7 @@ if __name__ == "__main__":
     fps = 1 / (time_step * interval)
     writer_args = ["-vcodec", "h264"]
 
-    # Uncomment the arguments below to save a video file.
+    Uncomment the arguments below to save a video file.
     plot_sim.animate(
         generator,
         #write_video=True, writer=writer, fps=fps,
